@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #D0E4F5 url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png") repeat local 2px -19px;
 }
 
 .App-logo {
@@ -36,3 +37,5 @@
     transform: rotate(360deg);
   }
 }
+
+

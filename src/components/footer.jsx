@@ -1,17 +1,12 @@
 import "./footer.css";
 
-function Footer(){
+const Footer = () => {
+  return (
+    <div className="footer">
+      <h5>StarWarsFanSite. All rights reserved.</h5>
+      <h6>Dev: Jadro Montes</h6>
+    </div>
+  );
+};
 
-    return(
-
-        <div className="footer">
-
-            <p>Jadro Montes - Copyright</p>
-    
-        </div>
-
-    )
-
-}
-
-export default Footer; 
+export default Footer;

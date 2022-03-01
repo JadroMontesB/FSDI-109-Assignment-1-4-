@@ -1,0 +1,30 @@
+.cart-item {
+    display: flex;
+
+    border: 2px outset #718030;
+    border-radius: 30px;
+
+    padding: 20px 15px;
+    margin-bottom: 25px;
+}
+
+.cart-item img {
+    flex: 2;
+}
+
+.cart-item .info {
+    flex: 5;
+}
+
+.cart-item .price,
+.cart-item .quantity {
+    flex: 1;
+}
+
+.cart-item .total {
+    flex: 2;
+}
+
+.cart-item button {
+    flex: 1;
+}

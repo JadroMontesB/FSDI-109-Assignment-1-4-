@@ -1,10 +1,17 @@
-.footer
-{
 
-    color: white;
-    text-shadow: 1px 1px black;
-    text-align: left;
+.footer {
+    background: #000000;
+  
+}
 
-    height: 3vh;
-    background-color: gainsboro;
+.footer h5 {
+    color: rgb(255, 255, 255);
+    padding-top: 12px;
+    margin-bottom: 8px;
+}
+
+.footer h6 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    margin-top: 0;
 }

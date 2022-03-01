@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+.about-data {
+    margin: 100px;
+
+    color: yellow;
+    font-family: "News Cycle", sans-serif;
+
+    transform-origin: 50%;
+    transform: perspective(300px) rotateX(20deg);
+
+}
+
+.about-data h2 {
+
+    font-family: "News Cycle", sans-serif;
+    color: #4bd5ee;
+    font-weight: 400;
+    letter-spacing: .1em;
+}
+
+.about-data li {
+
+    font-size: 20px;
+
+}
