@@ -1,3 +1,5 @@
+import axios from "axios";
+
 var catalog = [
   {
     _id: "01_LightSaber_Jedi",
@@ -65,8 +67,20 @@ var catalog = [
 ];
 
 class DataService {
-  getCatalog() {
-    return catalog;
+  async getCatalog() {
+    let response = await axios.get("http://127.0.0.1:5000/api/catalog");
+    console.log("TEST FDSI 110 CLASS 1", response.data);
+    return response.data;
+  }
+
+  async getWeather(lat, lon) {
+    let apikey = "b58812f99e02ca574646d1c12f1112b4";
+    let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apikey}&units=metric`;
+
+    let response = await axios.get(url);
+
+    return response.data;
+    //console.log(response.data);
   }
 
   registerProduct() {}

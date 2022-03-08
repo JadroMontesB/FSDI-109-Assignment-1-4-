@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+.weather-container {
+
+    color: white;
+    text-shadow: 1px 1px #4bd5ee;
+    font-family: "News Cycle", sans-serif;
+
+}
